@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
+
+
+body {
+  color: #414f57;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 12pt;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+
+  position: relative;
+  width: 99.4%;
+  margin-top: 20px;
+  padding: 0px;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  
+  background-color: #aaaaaa;
+  background-image: url(""), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+  background-image: url(""), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+  background-image: url(""), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+  background-image: url(""), linear-gradient(60deg, rgba(255,160,122, 0.5) 5%, rgba(46,139,87, 0.35));
+  background-attachment: fixed, fixed, fixed;
+}
+hr {
+  border: 0;
+  border-bottom: solid 1px #c8cccf;
+  margin: 3em 0;
+}
+
+#wrapper {
+  width: 350px;
+  text-align: center;
+  background-color: white;
+  left: 50%;
+  padding-bottom: 20px;
+  position: relative;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 10px rgba(0,0,0,.5);
+  border: hidden;
+  border-radius: 5px;
+}
+
+#main {
+  padding-top: 30px;
+}
+
+ul.icons {
+  list-style: none;
+  padding-left: 0px;
+}
+  ul.icons li {
+    display: inline-block;
+  }
+    ul.icons li a {
+      text-decoration: none;
+      position: relative;
+      display: block;
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+      border: solid 1px #c8cccf;
+      line-height: 70px;
+      margin: 0px 5px 0px 5px;
+      overflow: hidden;
+      text-align: center;
+      white-space: nowrap;
+      color: #c8cccf;
+      transition: border-color 1s, color 0.5s;
+    }
+      ul.icons li a:hover {
+        border-color: #64B39D;
+        color: #64B39D;
+      }
+
+#footer {
+  text-align: center;
+  color: white;
+}
